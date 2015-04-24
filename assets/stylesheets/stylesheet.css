@@ -1,8 +1,18 @@
+
+
+/* Fonts
+================================ */
+
 body, nav ul a, nav ul li a, a, p .galleryItem #top-text .headings {
 	font-family: 'Lato', sans-serif;
     font-size: 100%;
     color: #1F2933;
 }
+
+
+/* Page Styles
+================================ */
+
 
 body {
 	padding: 0;
@@ -87,7 +97,9 @@ nav ul li {
 }
 
 
-/* Top section */
+
+/* Top Section
+================================ */
 
 
   #top-section{
@@ -162,7 +174,9 @@ position:relative;    background:url("https://s3.amazonaws.com/portfolioleanneth
 
 
 
-/* portfolio */
+
+/* Portfolio
+================================ */
 
   #portfolio {
     padding-bottom: 30px;}
@@ -274,28 +288,9 @@ position:relative;    background:url("https://s3.amazonaws.com/portfolioleanneth
   }
 
 
-/*  @media only screen and (max-width: 340px){ 
-      .galleryItem {
-        width:80%;
-        height: 202px;
-      }
 
-      .imgcolor {
-        width:192px;
-      }
-
-      .galleryItem img {
-        max-width: 100%;
-      }
-
-
-
-
-  }*/
-
-
-
-/* about section */
+/* About Section 
+================================ */
 
   #about {
   	background-color:#a4d6c5;
@@ -329,8 +324,9 @@ position:relative;    background:url("https://s3.amazonaws.com/portfolioleanneth
   }
 
 
-/* Intro section */
 
+/* Intro Section
+================================ */
     #about h2 {
       font-weight: 300;
       color: #BD5624;
@@ -463,53 +459,11 @@ position:relative;    background:url("https://s3.amazonaws.com/portfolioleanneth
       border-right: 0px;
     }
 
-    @media only screen and (max-width: 551px){ 
+ 
 
-      .clear-inline {
-          width: 90%;
-        }
-
-        .me-text {
-        
-        text-align: center;
-      }
-
-    }
-
-    @media only screen and (max-width: 425px){ 
-    
-      #about ul {
-        width:135px;
-      }
-
-      #about ul.right-aligned {
-        padding-left: 0px;
-        padding-right: 0px;
-        margin-right: 5px;
-      }
-
-      .lists {
-        margin-top: 5px;
-      }
-
-      .clear-inline {
-          width: 200px;
-         
-      }
-
-      .me-text {
-        margin: 0 auto;
-        text-align: center;
-      }
-
-      .tools-image {
-        margin-right: 3%;
-
-      }
-
-    }
-
-  /* Footer */
+ 
+/* Footer Section
+================================ */
 
     #footer {
 
@@ -652,6 +606,11 @@ position:relative;    background:url("https://s3.amazonaws.com/portfolioleanneth
       line-height: 48px;
     }
 
+
+
+/* Devices
+================================ */
+
  @media only screen and (max-width: 922px){
    .contact {
     padding-left:15%;
@@ -681,7 +640,53 @@ position:relative;    background:url("https://s3.amazonaws.com/portfolioleanneth
 
  
 
- } 
+ }
+
+@media only screen and (max-width: 551px){ 
+
+  .clear-inline {
+      width: 90%;
+    }
+
+    .me-text {
+    
+    text-align: center;
+  }
+
+}
+
+@media only screen and (max-width: 425px){ 
+
+  #about ul {
+    width:135px;
+  }
+
+  #about ul.right-aligned {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-right: 5px;
+  }
+
+  .lists {
+    margin-top: 5px;
+  }
+
+  .clear-inline {
+      width: 200px;
+     
+  }
+
+      .me-text {
+        margin: 0 auto;
+        text-align: center;
+      }
+
+      .tools-image {
+        margin-right: 3%;
+
+      }
+
+    }  
 
 
 
