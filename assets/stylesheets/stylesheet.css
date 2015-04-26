@@ -29,6 +29,7 @@ hgroup {
 
 
 nav {
+  background-color: rgb(48,71,84);
 	background-color: rgba(48,71,84,0.95);
   /*border-bottom:1px solid #1F2933;*/	
 	position: fixed;
@@ -301,9 +302,9 @@ position:relative;    background:url("https://s3.amazonaws.com/portfolioleanneth
     height: 10px;
     background-color: #d98053;
      /* Adds shadow to the bottom of the bar */
-    -webkit-box-shadow: 0px 0.5px 2px 0px #000000;
-    -moz-box-shadow: 0px 0.5px 2px 0px #000000;
-    box-shadow: 0px 0.5px 2px 0px #000000;  
+    -webkit-box-shadow: 0 0.5px 2px 0 #000000;
+    -moz-box-shadow: 0 0.5px 2px 0 #000000;
+    box-shadow: 0 0.5px 2px 0 #000000;  
   }
 
 
