@@ -33,19 +33,20 @@
   #project_info .headings {
   	color: #79c0a9;
   	padding-top: 80px;
+    font-weight: 300;
   }
 
  
   .project_info {
-    width: 450px;
-  	padding: 10px 30px 0 30px;
+    width: 275px;
+  	padding: 10px 20px 0;
   	display: inline-block;
     color: #FFFFFF;
 /*    border:1px solid #79c0a9;
 */  }
 
   .project_info h1 {
-    text-align: left;
+    text-align: center;
     font-size: 1em;
 
   }
@@ -55,7 +56,7 @@
   	list-style-type: none;
   	padding: 0;
   	margin: 0;
-  	text-align: left;
+  	text-align: center;
   	font-weight: 300;
   	line-height: 1.5em;
   }
@@ -65,7 +66,7 @@
   }
 
   .project_info p {
-  	text-align: right;
+  	text-align: center;
   	font-weight: 300;
   	font-size: 0.75em;
   	padding-top: 30px;
@@ -77,7 +78,7 @@
   .project_divider {
   	 display: block;
       margin: 0 auto;
-      width: 80%;
+      width: 90%;
       border-bottom:1px solid #d98053;
       padding-top: 10px;
   }
@@ -90,7 +91,7 @@
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    margin: 30px 10% 0;
+    margin: 30px 5% 0;
 
   }
 
@@ -101,8 +102,8 @@
 
   .project_video {
     border:1px solid #79c0a9;
-  	margin: 30px 10% 0;
-  	padding: 1% 1%;
+  	margin: 30px 5% 0;
+  	padding: 2% 2%;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
@@ -126,49 +127,47 @@
   	height: 100%; 
   }
 
-   @media only screen and (max-width: 650px){ 
-   		.project_info {
-        width: 400px;
-   			padding: 10px 20px 0;
-   		}
 
-      .project_info h1{
-        text-align: center;
-       }
+ @media only screen and (min-width: 480px){ 
+   .project_info {
+      width: 400px;
+  }
+}
 
-      .project_info ul {
-        text-align: center;
-      }
+@media only screen and (min-width: 650px){ 
+    .project_info {
+      width: 450px;
+      padding: 10px 30px 0 30px;
+    }
 
-      .project_image {
-        margin: 30px 5% 0;
-      }
+    .project p {
+      text-align: right;
 
-   		.project_video {
-    		margin: 30px 5% 0;
-    		padding: 2% 2%;
-  		}
+    }
 
-      .project_divider {
-        width: 90%;
-      }
-   	}
+    .project_info h1{
+      text-align: left;
+    }
 
- @media only screen and (max-width: 450px){ 
+    .project_info ul {
+      text-align: left;
+    }
 
-      .project_info {
-        width: 275px;
-        padding: 10px 20px 0;
-      }
+    .project_image {
+      margin: 30px 10% 0;
+    }
 
-   		.project_info ul {
-   			text-align: center;
-   		}
+    .project_video {
+      margin: 30px 10% 0;
+      padding: 1% 1%;
+    }
 
-   		.project_info p  {
-   			text-align: center;
-   		}
- 		}
+    .project_divider {
+      width: 80%;
+    }
+   
+}
+
 
 
 
