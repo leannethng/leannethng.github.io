@@ -103,18 +103,482 @@ nav ul li {
 ================================ */
 
 
-  #top-section{
-position:relative;    background:url("https://s3.amazonaws.com/portfolioleannethng/Images/treehouse-bg_1440.jpg") #181C1C no-repeat center;
-  	height:600px;
-  	width:100%;
-    margin: 0 auto;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }	
+#top-section{
+  position:relative;    
+  background:url("https://s3.amazonaws.com/portfolioleannethng/Images/treehouse-bg_1440.jpg") #181C1C no-repeat center;
+	height:600px;
+	width:100%;
+  margin: 0 auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}	
 
 
+
+
+.top-text {
+  display: none; ;
+}
+
+  
+
+/* need to fix this */
+.arrow{
+  display: block;
+  background: url("https://s3.amazonaws.com/portfolioleannethng/Images/arrow_100px.png") center no-repeat;
+  text-align: center;
+  height: 74px;
+  width: 100px;
+  position:absolute;
+  bottom:10px;
+  left:50%;
+  margin-left:-50px;
+}
+
+
+
+
+
+
+
+
+
+/* Portfolio
+================================ */
+
+#portfolio {
+  padding-bottom: 30px;
+}
+
+.section-separator1 {
+  height: 10px;
+  background-color: #232829;
+   /* Adds shadow to the bottom of the bar */
+  -webkit-box-shadow: 0 0 5px 0 #000000;
+  -moz-box-shadow: 0 0 5px 0 #000000;
+  box-shadow: 0 0 5px 0 #000000; 
+}
+
+
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center; 
+  padding-top: 70px;
+}
+
+.container .headings {
+font-size: 2em;
+color: #79c0a9;
+font-weight: 300;
+margin: 0 auto 23px;
+width: 300px;
+border-bottom:1px solid #d98053;
+padding-bottom: 1%;
+
+}
+
+.galleryItem {
+  padding:5px;
+  border:1px solid #79c0a9;
+  background: #304754;
+  height: 300px;
+  display: -moz-inline-stack;
+  display: inline-block;
+  vertical-align: top;
+  zoom: 1;
+  *display: inline;
+  margin: 0 1% 20px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+
+}
+
+.galleryItem h3 a {
+  text-decoration: none;
+	font-weight:200;
+	color: white;
+}
+
+.galleryItem p a {
+  text-decoration: none;
+  color: white;
+}
+
+.galleryItem img {
+  /*max-width: 100%;*/
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -moz-transition: opacity 0.5s ease;  
+  -webkit-transition: opacity 0.5s ease;  
+  -ms-transition: opacity 0.5s ease;  
+  -o-transition: opacity 0.5s ease;  
+  transition: opacity 0.5s ease; 
+}
+
+.galleryItem:hover img{
+  opacity: 0;
+
+}
+
+.galleryItem .imgcolor { 
+  height: 300px; 
+  position: relative;  
+  float: left;  
+  cursor: pointer; 
+  background-color: #1F2933;  
+}  
+
+.galleryItem .imgcolor:before {  
+ background: none;
+}  
+
+.galleryItem .text {
+  position:relative;
+  bottom:200px;
+  left:0;
+  opacity: 0;
+  -moz-transition: opacity 0.5s ease;  
+  -webkit-transition: opacity 0.5s ease;  
+  -ms-transition: opacity 0.5s ease;  
+  -o-transition: opacity 0.5s ease;  
+  transition: opacity 0.5s ease; 
+}
+
+.galleryItem:hover .text {
+  opacity: 1;
+}
+
+
+
+/* About Section 
+================================ */
+
+#about {
+background-color:#a4d6c5;
+padding-bottom: 30px;
+width: auto;
+margin:0 auto;
+text-align: center; 
+}
+
+.section-separator2 {
+height: 10px;
+background-color: #d98053;
+ /* Adds shadow to the bottom of the bar */
+-webkit-box-shadow: 0 0.5px 2px 0 #000000;
+-moz-box-shadow: 0 0.5px 2px 0 #000000;
+box-shadow: 0 0.5px 2px 0 #000000;  
+}
+
+
+#about .headings {
+font-size: 2em;
+color: #1F2933;
+font-weight: 300;
+margin-top: 70px;
+margin-bottom: 23px;
+margin-left: auto;
+margin-right: auto;
+width: 300px;
+border-bottom:1px solid #d98053;
+padding-bottom: 1%;
+}
+
+
+
+/* Intro Section
+================================ */
+#about h2 {
+  font-weight: 300;
+  color: #BD5624;
+}
+
+
+
+.me-image {
+	width:138px;
+  position: relative;
+  text-align: center;
+  display: inline-block;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.me-image img {
+  padding-bottom: 20%;
+}
+
+.me-text {
+	display: inline-block;
+	width:300px;
+  font-weight:400;
+  line-height:2em;
+  margin:0 auto;
+  text-align:center;
+}
+
+ .big-letter {
+  font-size:2.0em;
+  font-weight: 400;
+}
+
+/* Skills and Tools */
+
+.headings-small  {
+  font-size: 1.5em;
+  color: #1F2933;
+  font-weight: 300;
+  margin: 70px auto 23px;
+  width: 300px;
+  border-bottom:1px solid #d98053;
+  padding-bottom: 1%;
+}
+
+.tools-image {
+  width:80px;
+  position: relative;
+  text-align: center;
+  display: inline-block;
+  margin-left: 5%;
+  margin-right: 3%;
+}
+
+.tools-image img {
+  margin-top: 20px;
+  width: 80px;
+
+}
+
+.lists {
+ display: inline-block;
+ margin-top: 5px;
+
+}
+
+.lists li {
+  padding-left: 10px;
+}
+
+.lists li:nth-child(2) {
+  border-left: 1px solid #2f414b;
+}
+
+.lists li:nth-child(3) {
+  border-left: 1px solid #2f414b;
+}
+
+#about ul:nth-of-type(2) li:nth-child(1){
+  border-left: 1px solid #2f414b;
+}
+
+#about ul:last-of-type li:nth-child(4){
+  border-left: 1px solid #2f414b;
+}
+
+.lists ul.right-aligned li {
+  border-left: none;
+
+}
+
+#about ul {
+  display: inline-block;
+  list-style-type: none;
+  text-align: left;
+  font-weight: 300;
+  width: 135px;
+  padding: 0 0 20px 0;
+  margin: 0;
+ 
+}
+
+
+#about ul.right-aligned {
+  text-align: right;
+  font-weight: 500;
+  margin-right: 5px;
+  vertical-align: top; 
+}
+
+.clear-inline {
+  display: block;
+  margin: 0 auto;
+  width: 200px;
+  border-bottom:1px solid #79c0a9;
+  /*padding-bottom: 1%;*/
+}
+
+.clear-inline:last-of-type {
+  display: none;
+}
+
+.blank {
+  opacity: 0;
+  border-right: 0;
+}
+
+
+
+
+/* Footer Section
+================================ */
+
+#footer {
+
+  background-color: #1F2933;
+  width: auto;
+  margin:0 auto;
+  text-align: left; 
+  -webkit-box-shadow: 0 0 3px 0 #000000;
+  -moz-box-shadow: 0 0 3px 0 #000000;
+  box-shadow: 0 0 3px 0 #000000;  
+}
+
+
+.contact {
+  margin: 0 auto;
+  padding: 40px 0 0 25%;
+  text-align: left;
+  
+}
+
+.row-1 {
+  display: inline-block;
+  vertical-align: top;
+  padding-bottom: 20px;
+}
+
+.row-2 {
+  display: inline-block;
+  vertical-align: top; 
+  padding-bottom: 20px; 
+}
+
+.row-3 {
+  right: 0;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  text-align: right;
+  vertical-align: center;
+}
+
+.row-3 p {
+  font-size: .80em;
+  color: #d98053;
+  font-weight: 100;
+}
+
+.get-in-touch {
+  display: inline-block;
+  font-weight: 300;
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: top;
+  /*padding-left: 5%;*/
+
+}
+
+.get-in-touch p {
+  color: #d98053;
+}
+
+.in-touch {
+ display: inline-block;
+ margin: 0 50px 0 0;
+}
+
+.in-touch li {
+  font-weight: 300;
+}
+
+.row-2 .in-touch {
+  margin-right: 90px;
+}
+
+.contact ul {
+  list-style-type: none;
+  color: #79c0a9; 
+}
+
+.contact a:link {
+  text-decoration: none;
+  color: #79c0a9; 
+}
+
+ .contact a:visited {
+  text-decoration: none;
+  color: #79c0a9; 
+}
+
+.contact a:hover {
+  text-decoration: none;
+   color: #d98053;
+
+}
+
+.contact a:active {
+  text-decoration: none;
+  color: #79c0a9; 
+}
+
+
+
+
+.email{
+  background-image:  url("https://s3.amazonaws.com/portfolioleannethng/Images/email-48.png");
+  background-repeat: no-repeat;
+  padding-left: 55px;
+  line-height: 48px;
+}
+
+
+.tweets{
+  background-image:  url("https://s3.amazonaws.com/portfolioleannethng/Images/tweets-48.png");
+  background-repeat: no-repeat;
+  padding-left: 55px;
+  line-height: 48px;
+}
+
+.find-me {
+ display: inline-block;
+}
+
+.blog{
+  background-image:  url("https://s3.amazonaws.com/portfolioleannethng/Images/blog-48.png");
+  background-repeat: no-repeat;
+  padding-left: 55px;
+  line-height: 48px;
+}
+
+.professional{
+  background-image:  url("https://s3.amazonaws.com/portfolioleannethng/Images/professional-48.png");
+  background-repeat: no-repeat;
+  padding-left: 55px;
+  line-height: 48px;
+}
+
+.videos{
+  background-image:  url("https://s3.amazonaws.com/portfolioleannethng/Images/videos-48.png");
+  background-repeat: no-repeat;
+  padding-left: 55px;
+  line-height: 48px;
+}
+
+
+
+/* Devices
+================================ */
+/*@media only screen and (min-width: 500px){ 
+
+*/
+
+@media only screen and (min-width: 600px){
   .top-text{
     display:block;
     width: 38%;
@@ -122,7 +586,6 @@ position:relative;    background:url("https://s3.amazonaws.com/portfolioleanneth
     padding-left: 10%;
     color: #232629;
   }
-
   #fittext1 {
     font-size: 2.8em;
     font-weight: 400;
@@ -136,554 +599,65 @@ position:relative;    background:url("https://s3.amazonaws.com/portfolioleanneth
     white-space: nowrap;
   }
 
-
   .line-separator{
     background:#d98053;
     border-bottom:2px solid #d98053;
     margin-right: 2%;
     margin-top: 20px;
   }
-
-/* need to fix this */
- .arrow{
-    display: block;
-    background: url("https://s3.amazonaws.com/portfolioleannethng/Images/arrow_100px.png") center no-repeat;
-    text-align: center;
-    
-    
-    height: 74px;
-    width: 100px;
-	position:absolute;
-	bottom:10px;
-	left:50%;
-	margin-left:-50px;
-	
-
-  }
-
-  
-
-  @media only screen and (max-width: 550px){ 
-    .top-text {
-    visibility: hidden;
-    }
-
-
-
-  }
-
-
-
-
-
-/* Portfolio
-================================ */
-
-  #portfolio {
-    padding-bottom: 30px;}
-
-  .section-separator1 {
-    height: 10px;
-    background-color: #232829;
-     /* Adds shadow to the bottom of the bar */
-    -webkit-box-shadow: 0 0 5px 0 #000000;
-    -moz-box-shadow: 0 0 5px 0 #000000;
-    box-shadow: 0 0 5px 0 #000000; 
-  }
-
-  
-
-  .container {
-      width: 100%;
-      margin: 0 auto;
-      overflow: hidden;
-      text-align: center; 
-      padding-top: 70px;
-  }
-
-  .container .headings {
-    font-size: 2em;
-    color: #79c0a9;
-    font-weight: 300;
-    margin: 0 auto 23px;
-    width: 300px;
-    border-bottom:1px solid #d98053;
-    padding-bottom: 1%;
-
-  }
-
-  .galleryItem {
-      padding:5px;
-      border:1px solid #79c0a9;
-      background: #304754;
-      height: 300px;
-      display: -moz-inline-stack;
-      display: inline-block;
-      vertical-align: top;
-      zoom: 1;
-      *display: inline;
-      margin: 0 1% 20px;
-      -webkit-border-radius: 3px;
-      -moz-border-radius: 3px;
-      border-radius: 3px;
-
-  }
-   
-  .galleryItem h3 a {
-      text-decoration: none;
-    	font-weight:200;
-    	color: white;
-  }
-
-  .galleryItem p a {
-      text-decoration: none;
-      color: white;
-  }
-   
-  .galleryItem img {
-      /*max-width: 100%;*/
-      -webkit-border-radius: 3px;
-      -moz-border-radius: 3px;
-      border-radius: 3px;
-      -moz-transition: opacity 0.5s ease;  
-      -webkit-transition: opacity 0.5s ease;  
-      -ms-transition: opacity 0.5s ease;  
-      -o-transition: opacity 0.5s ease;  
-      transition: opacity 0.5s ease; 
-  }
-
-  .galleryItem:hover img{
-      opacity: 0;
-
-  }
-
-  .galleryItem .imgcolor { 
-      height: 300px; 
-      position: relative;  
-      float: left;  
-      cursor: pointer; 
-      background-color: #1F2933;  
-  }  
-    
-  .galleryItem .imgcolor:before {  
-     background: none;
-  }  
-
-  .galleryItem .text {
-      position:relative;
-      bottom:200px;
-      left:0;
-      opacity: 0;
-      -moz-transition: opacity 0.5s ease;  
-      -webkit-transition: opacity 0.5s ease;  
-      -ms-transition: opacity 0.5s ease;  
-      -o-transition: opacity 0.5s ease;  
-      transition: opacity 0.5s ease; 
-  }
-
-  .galleryItem:hover .text {
-      opacity: 1;
-  }
-
-
-
-/* About Section 
-================================ */
-
-  #about {
-  	background-color:#a4d6c5;
-  	padding-bottom: 30px;
-  	width: auto;
-  	margin:0 auto;
-    text-align: center; 
-  }
-
-  .section-separator2 {
-    height: 10px;
-    background-color: #d98053;
-     /* Adds shadow to the bottom of the bar */
-    -webkit-box-shadow: 0 0.5px 2px 0 #000000;
-    -moz-box-shadow: 0 0.5px 2px 0 #000000;
-    box-shadow: 0 0.5px 2px 0 #000000;  
-  }
-
-
-  #about .headings {
-    font-size: 2em;
-    color: #1F2933;
-    font-weight: 300;
-    margin-top: 70px;
-    margin-bottom: 23px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 300px;
-    border-bottom:1px solid #d98053;
-    padding-bottom: 1%;
-  }
-
-
-
-/* Intro Section
-================================ */
-    #about h2 {
-      font-weight: 300;
-      color: #BD5624;
-    }
-
-   
-
-    .me-image {
-    	width:138px;
-      position: relative;
-      text-align: center;
-      display: inline-block;
-      margin-left: 5%;
-      margin-right: 5%;
-    }
-
-    .me-image img {
-      padding-bottom: 20%;
-    }
-
-    .me-text {
-    	display: inline-block;
-    	width:300px;
-      font-weight:400;
-      line-height:2em;
-      margin-left: 5%;
-      margin-right: 5%;
-      text-align:left;
-    }
-
-     .big-letter {
-      font-size:2.0em;
-      font-weight: 400;
-    }
-
-/* Skills and Tools */
-    
-    .headings-small  {
-      font-size: 1.5em;
-      color: #1F2933;
-      font-weight: 300;
-      margin: 70px auto 23px;
-      width: 300px;
-      border-bottom:1px solid #d98053;
-      padding-bottom: 1%;
-  }
-
-    .tools-image {
-      width:80px;
-      position: relative;
-      text-align: center;
-      display: inline-block;
-      margin-left: 5%;
-      margin-right: 2%;
-    }
-
-    .tools-image img {
-      margin-top: 20px;
-      width: 80px;
-
-    }
-
-    .lists {
-     display: inline-block;
-
-    }
-
-    .lists li {
-      padding-left: 10px;
-    }
-
-   .lists li:nth-child(2) {
-      border-left: 1px solid #2f414b;
-    }
-
-    .lists li:nth-child(3) {
-      border-left: 1px solid #2f414b;
-    }
-
-    #about ul:nth-of-type(2) li:nth-child(1){
-      border-left: 1px solid #2f414b;
-    }
-
-    #about ul:last-of-type li:nth-child(4){
-      border-left: 1px solid #2f414b;
-    }
-
-    .lists ul.right-aligned li {
-      border-left: none;
-
-    }
-
-    #about ul {
-      display: inline-block;
-      list-style-type: none;
-      text-align: left;
-      font-weight: 300;
-      width: 150px;
-      padding: 0 0 20px 0;
-      margin: 0;
-     
-    }
-
-
-    #about ul.right-aligned {
-      text-align: right;
-      font-weight: 500;
-      padding:0 5px;
-      vertical-align: top; 
-    }
-  
-    .clear-inline {
-      display: block;
-      margin: 0 auto;
-      width: 500px;
-      border-bottom:1px solid #79c0a9;
-      /*padding-bottom: 1%;*/
-    }
-
-    .clear-inline:last-of-type {
-      display: none;
-    }
-
-    .blank {
-      opacity: 0;
-      border-right: 0;
-    }
-
- 
-
- 
-/* Footer Section
-================================ */
-
-    #footer {
-
-      background-color: #1F2933;
-      width: auto;
-      margin:0 auto;
-      text-align: left; 
-      -webkit-box-shadow: 0 0 3px 0 #000000;
-      -moz-box-shadow: 0 0 3px 0 #000000;
-      box-shadow: 0 0 3px 0 #000000;  
-    }
-
-
-    .contact {
-      margin: 0 auto;
-      padding: 40px 0 0 0;
-
-      text-align: left;
-      padding-left: 5%; 
-    }
-
-    .row-1 {
-      display: inline-block;
-      vertical-align: top;
-    }
-
-    .row-2 {
-      display: inline-block;
-      vertical-align: top;  
-    }
-
-    .row-3 {
-      right: 0;
-      padding-right: 20px;
-      padding-bottom: 10px;
-      text-align: right;
-      vertical-align: bottom;
-    }
-
-    .row-3 p {
-      font-size: .80em;
-      color: #d98053;
-      font-weight: 100;
-    }
-
-    .get-in-touch {
-      display: inline-block;
-      font-weight: 300;
-      margin: 0 auto;
-      text-align: center;
-      vertical-align: top;
-      /*padding-left: 5%;*/
-
-    }
-
-    .get-in-touch p {
-      color: #d98053;
-    }
-
-    .in-touch {
-     display: inline-block;
-     margin: 0 50px 0 0;
-    }
-
-    .in-touch li {
-      font-weight: 300;
-    }
-
-    .row-2 .in-touch {
-      margin-right: 90px;
-    }
-
-    .contact ul {
-      list-style-type: none;
-      color: #79c0a9; 
-    }
-
-    .contact a:link {
-      text-decoration: none;
-      color: #79c0a9; 
-    }
-
-     .contact a:visited {
-      text-decoration: none;
-      color: #79c0a9; 
-    }
-
-    .contact a:hover {
-      text-decoration: none;
-       color: #d98053;
-
-    }
-
-    .contact a:active {
-      text-decoration: none;
-      color: #79c0a9; 
-    }
-
-
-
-
-    .email{
-      background-image:  url("https://s3.amazonaws.com/portfolioleannethng/Images/email-48.png");
-      background-repeat: no-repeat;
-      padding-left: 55px;
-      line-height: 48px;
-    }
-
-
-    .tweets{
-      background-image:  url("https://s3.amazonaws.com/portfolioleannethng/Images/tweets-48.png");
-      background-repeat: no-repeat;
-      padding-left: 55px;
-      line-height: 48px;
-    }
-
-    .find-me {
-     display: inline-block;
-
-    }
-
-    .blog{
-      background-image:  url("https://s3.amazonaws.com/portfolioleannethng/Images/blog-48.png");
-      background-repeat: no-repeat;
-      padding-left: 55px;
-      line-height: 48px;
-    }
-
-    .professional{
-      background-image:  url("https://s3.amazonaws.com/portfolioleannethng/Images/professional-48.png");
-      background-repeat: no-repeat;
-      padding-left: 55px;
-      line-height: 48px;
-    }
-
-    .videos{
-      background-image:  url("https://s3.amazonaws.com/portfolioleannethng/Images/videos-48.png");
-      background-repeat: no-repeat;
-      padding-left: 55px;
-      line-height: 48px;
-    }
-
-
-
-/* Devices
-================================ */
-
- @media only screen and (max-width: 922px){
-   .contact {
-    padding-left:15%;
-  }
-
-
-   .row-3 {
-    text-align: center;
-  }
-
- }
-
- @media only screen and (max-width: 780px){
-
-  .contact {
-    padding-left:25%;
-  }
-
-  .row-1 {
-    padding-bottom: 20px;
-  }
-
-  .row-2 {
-    
-    padding-bottom: 20px;
-  }
-
- 
-
- }
-
-@media only screen and (max-width: 551px){ 
-
   .clear-inline {
-      width: 90%;
-    }
-
-    .me-text {
-    
-    text-align: center;
+    width: 90%;
   }
+
+  .me-text {
+  text-align: center;
+  }
+
 
 }
 
-@media only screen and (max-width: 425px){ 
 
+@media only screen and (min-width: 780px){
+ .contact {
+  padding-left:15%;
+  }
+
+  .row-1 {
+  padding-bottom: 0;
+  }
+
+.row-2 {
+  padding-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 923px) {
   #about ul {
-    width:135px;
+    width: 150px;
   }
 
   #about ul.right-aligned {
-    padding-left: 0;
-    padding-right: 0;
-    margin-right: 5px;
-  }
-
-  .lists {
-    margin-top: 5px;
+    padding:0 5px;
   }
 
   .clear-inline {
-      width: 200px;
-     
+      width: 500px;
   }
 
-      .me-text {
-        margin: 0 auto;
-        text-align: center;
-      }
+  .me-text {
+    margin: 0 5%;
+    text-align: left;
+  }
 
-      .tools-image {
-        margin-right: 3%;
+  .tools-image {
+    margin-right: 2%;
+  }
 
-      }
+  .contact {
+    padding-left: 5%; 
+  }
 
-    }  
-
-
-
-
-
-
+  .row-3 {
+    text-align: bottom;
+  }
+} 
