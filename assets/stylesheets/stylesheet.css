@@ -461,8 +461,8 @@ nav ul li {
   right: 0;
   padding-right: 20px;
   padding-bottom: 10px;
-  text-align: right;
-  vertical-align: center;
+  text-align: center;
+  vertical-align: bottom;
 }
 
 .row-3 p {
@@ -569,11 +569,9 @@ nav ul li {
 
 /* Devices
 ================================ */
-/*@media only screen and (min-width: 500px){ 
 
-*/
 
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 426px){
   .top-text{
     display:block;
     width: 38%;
@@ -610,7 +608,22 @@ nav ul li {
 }
 
 
+@media only screen and (min-width: 550px){ 
+
+ .clear-inline {
+    width: 500px;
+  }
+
+
+}
+
+
+
 @media only screen and (min-width: 780px){
+   .clear-inline {
+    width: 500px;
+  }
+
   .contact {
     padding-left:15%;
   }
@@ -633,9 +646,7 @@ nav ul li {
     padding:0 5px;
   }
 
-  .clear-inline {
-    width: 500px;
-  }
+ 
 
   .me-text {
     margin: 0 5%;
@@ -651,6 +662,6 @@ nav ul li {
   }
 
   .row-3 {
-    text-align: bottom;
+    text-align: right;
   }
 } 
