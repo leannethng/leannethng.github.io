@@ -1,4 +1,4 @@
-	body, nav ul a, nav ul li a, .galleryItem #top-text {
+	/*body, nav ul a, nav ul li a, .galleryItem #top-text {
     font-family: 'Lato', sans-serif;
     font-size: 100%;
 	}
@@ -15,7 +15,7 @@
 	hgroup {
 		display: block;
 	}
-
+*/
 
 
 
@@ -32,7 +32,8 @@
 
   #project_info .headings {
   	color: #79c0a9;
-  	padding-top: 80px;
+  	padding-top: 100px;
+		margin-top: 0;
     font-weight: 300;
   }
 
@@ -126,6 +127,8 @@
   	width: 100%;
   	height: 100%;
   }
+
+
 
 
  @media only screen and (min-width: 480px){

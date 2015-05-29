@@ -285,7 +285,7 @@ nav ul li {
   margin-bottom: 23px;
   margin-left: auto;
   margin-right: auto;
-  width: 300px;
+	width: 60%;
   border-bottom:1px solid #d98053;
   padding-bottom: 1%;
 }
@@ -297,28 +297,31 @@ nav ul li {
 #about h2 {
   font-weight: 300;
   color: #BD5624;
+	padding: 0 5%;
 }
 
 .me-image {
 	width:138px;
+	height: 147px;
   position: relative;
   text-align: center;
   display: inline-block;
-  margin-left: 5%;
+  /*margin-left: 5%;*/
   margin-right: 5%;
 }
 
 .me-image img {
-  padding-bottom: 20%;
+  padding-bottom: 40%;
 }
 
 .me-text {
 	display: inline-block;
-	width:300px;
+
   font-weight:400;
   line-height:2em;
   margin:0 auto;
   text-align:center;
+	padding: 0 10%;
 }
 
  .big-letter {
@@ -333,7 +336,7 @@ nav ul li {
   color: #1F2933;
   font-weight: 300;
   margin: 70px auto 23px;
-  width: 300px;
+  width: 60%;
   border-bottom:1px solid #d98053;
   padding-bottom: 1%;
 }
@@ -569,8 +572,13 @@ nav ul li {
 
 /* Devices
 ================================ */
+@media only screen and (min-width: 378px){
 
+.contact {
+	padding: 40px 0 0 15%;
+}
 
+}
 @media only screen and (min-width: 426px){
   .top-text{
     display:block;
@@ -592,10 +600,17 @@ nav ul li {
     white-space: nowrap;
   }
 
+#about .headings {
+	width: 300px;
+}
+
   .row-2 .in-touch {
   margin-right: 90px;
   }
 
+	.headings-small {
+		width: 300px;
+	}
   .line-separator{
     background:#d98053;
     border-bottom:2px solid #d98053;
@@ -608,7 +623,13 @@ nav ul li {
 
   .me-text {
     text-align: center;
+		width:300px;
   }
+
+	.contact {
+		padding: 40px 0 0 20%;
+	}
+
 }
 
 
@@ -617,7 +638,14 @@ nav ul li {
  .clear-inline {
     width: 500px;
   }
+
+	.contact {
+		padding: 40px 0 0 25%;
+	}
+
 }
+
+
 
 
 @media only screen and (min-width: 780px){
@@ -636,6 +664,8 @@ nav ul li {
   .row-2 {
     padding-bottom: 0;
   }
+
+
 }
 
 @media only screen and (min-width: 923px) {
@@ -650,6 +680,7 @@ nav ul li {
   .me-text {
     margin: 0 5%;
     text-align: left;
+		padding: 0 0;
   }
 
   .tools-image {
