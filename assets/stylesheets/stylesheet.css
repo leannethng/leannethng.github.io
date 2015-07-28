@@ -149,7 +149,7 @@ nav ul li {
 ================================ */
 
 #portfolio {
-  padding-bottom: 30px;
+  padding-bottom: 15%;
 }
 
 .section-separator1 {
@@ -634,6 +634,10 @@ nav ul li {
 
 
 @media only screen and (min-width: 550px){
+
+	.container {
+		width: 80%;
+	}
 
  .clear-inline {
     width: 500px;
