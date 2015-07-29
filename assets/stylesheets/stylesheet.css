@@ -61,6 +61,11 @@ nav {
   background-position: 0 -40px;
 }
 
+#logo:focus {
+  background-position: 0 -40px;
+}
+
+
 
 nav ul li a {
   color: #79c0a9;
@@ -73,6 +78,10 @@ nav ul li a {
 
 
 nav a:hover {
+  color: #157484;
+}
+
+nav a:focus{
   color: #157484;
 }
 
