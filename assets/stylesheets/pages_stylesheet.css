@@ -32,7 +32,7 @@
   line-height: 1.5em;
 }
 .project_info li {
-  margin: 0 0 2em 0;
+  margin: 0 0 1.5em 0;
 }
 .project_info p {
   text-align: center;
@@ -94,7 +94,7 @@
     padding: 10px 30px 0 30px;
   }
   .int_arch_text {
-    width: 335px;
+    width: 355px;
   }
   .project p {
     text-align: right;
