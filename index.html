@@ -263,10 +263,10 @@
     </script>
     <script>$(".scroll").click(function(t){t.preventDefault();var h=0;h=$(this.hash).offset().top>$(document).height()-$(window).height()?$(document).height()-$(window).height():$(this.hash).offset().top,$("html,body").animate({scrollTop:h},500,"swing")});</script>
     <script>function resize(){var e=jQuery(window).height()-jQuery("#navbar").height();jQuery("#top-section").height(e+40)}jQuery(window).resize(function(){resize()}),$(function(){resize()});</script>
-    <script type="text/javascript" src="assets/javascript/fittext_min.js"></script>
+    <script type="text/javascript" src="assets/javascript/jquery.fittext.js"></script>
     <script type="text/javascript">
-      window.fitText(document.getElementById('fittext1'), 0.8)
-      window.fitText(document.getElementById('fittext2'), 1.42)
+      jQuery('#fittext1').fitText(0.8, { minFontSize: '32px', maxFontSize: '60px' });
+      jQuery('#fittext2').fitText(1.42,{ minFontSize: '18px', maxFontSize: '33px' });
     </script>
 </body>
 

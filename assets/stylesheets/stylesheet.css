@@ -463,6 +463,8 @@ nav ul li {
 ================================ */
 
 @media only screen and (min-width: 378px) {
+
+
   .contact {
     padding: 40px 0 0 15%;
   }
@@ -470,10 +472,11 @@ nav ul li {
 @media only screen and (min-width: 426px) {
   .top-text {
     display: block;
-    width: 38%;
+    width: 66%;
     padding-top: 100px;
     padding-left: 10%;
     color: #232629;
+
   }
   #fittext1 {
     font-size: 2.8em;
@@ -523,6 +526,14 @@ nav ul li {
     padding: 40px 0 0 25%;
   }
 }
+
+@media only screen and (min-width: 734px) {
+    .top-text {
+      width: 475px;
+    }
+
+}
+
 @media only screen and (min-width: 780px) {
   .clear-inline {
     width: 500px;
@@ -558,4 +569,13 @@ nav ul li {
   .row-3 {
     text-align: right;
   }
+}
+
+@media only screen and (min-width: 1200px) {
+
+  .container {
+    width: 1200px;
+  }
+
+
 }
