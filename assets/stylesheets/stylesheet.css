@@ -159,10 +159,11 @@ nav ul li {
 }
 .galleryItem h3 a {
   text-decoration: none;
-  font-weight: 200;
+  font-weight: 300;
   color: white;
 }
 .galleryItem p a {
+  font-weight: 400;
   text-decoration: none;
   color: white;
 }
@@ -325,7 +326,7 @@ nav ul li {
 }
 #about ul.right-aligned {
   text-align: right;
-  font-weight: 500;
+  font-weight: 400;
   margin-right: 5px;
   vertical-align: top;
 }
