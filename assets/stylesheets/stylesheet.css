@@ -254,9 +254,7 @@ nav ul li {
   /*margin-left: 5%;*/
   margin-right: 5%;
 }
-.me-image img {
-  padding-bottom: 40%;
-}
+
 .me-text {
   display: inline-block;
   font-weight: 400;
@@ -511,6 +509,7 @@ nav ul li {
     text-align: center;
     width: 300px;
   }
+
   .contact {
     padding: 40px 0 0 20%;
   }
@@ -524,6 +523,20 @@ nav ul li {
   }
   .contact {
     padding: 40px 0 0 25%;
+  }
+  .me-text {
+    margin: 0 5%;
+    text-align: left;
+    padding: 0 0;
+    width: 550px;
+  }
+  .me-image{
+    float: right;
+    width: 124px;
+  }
+  .me-image img {
+    padding-top: 10%;
+    padding-left: 25%;
   }
 }
 
