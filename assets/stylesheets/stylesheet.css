@@ -95,7 +95,7 @@ nav ul li {
 }
 .top-text {
   display: none;
-  ;
+
 }
 
 /* need to fix this */
@@ -450,8 +450,8 @@ nav ul li {
   padding-left: 55px;
   line-height: 48px;
 }
-.videos {
-  background-image: url("https://s3.amazonaws.com/portfolioleannethng/Images/videos-48.png");
+.github {
+  background-image: url("https://s3.amazonaws.com/portfolioleannethng/Images/github-48.png");
   background-repeat: no-repeat;
   padding-left: 55px;
   line-height: 48px;
@@ -461,20 +461,15 @@ nav ul li {
 ================================ */
 
 @media only screen and (min-width: 378px) {
-
-
   .contact {
     padding: 40px 0 0 15%;
   }
-}
-@media only screen and (min-width: 426px) {
   .top-text {
     display: block;
-    width: 66%;
+    width: 80%;
     padding-top: 100px;
-    padding-left: 10%;
+    margin: 0 auto;
     color: #232629;
-
   }
   #fittext1 {
     font-size: 2.8em;
@@ -487,6 +482,15 @@ nav ul li {
     margin-top: 0;
     white-space: nowrap;
   }
+  .line-separator {
+    background: #d98053;
+    border-bottom: 2px solid #d98053;
+    margin-right: 2%;
+    margin-top: 20px;
+  }
+}
+@media only screen and (min-width: 426px) {
+
   #about .headings {
     width: 300px;
   }
@@ -496,12 +500,7 @@ nav ul li {
   .headings-small {
     width: 300px;
   }
-  .line-separator {
-    background: #d98053;
-    border-bottom: 2px solid #d98053;
-    margin-right: 2%;
-    margin-top: 20px;
-  }
+
   .clear-inline {
     width: 90%;
   }
@@ -515,8 +514,27 @@ nav ul li {
   }
 }
 @media only screen and (min-width: 550px) {
+  .top-text {
+    display: block;
+    width: 66%;
+    margin: 0;
+    padding-top: 100px;
+    padding-left: 10%;
+    color: #232629;
+  }
+  #fittext1 {
+    font-size: 2.8em;
+    font-weight: 400;
+    margin-bottom: -20px;
+  }
+  #fittext2 {
+    font-size: 1.55em;
+    font-weight: 300;
+    margin-top: 0;
+    white-space: nowrap;
+  }
   .container {
-    width: 80%;
+    width: 90%;
   }
   .clear-inline {
     width: 500px;
@@ -524,11 +542,14 @@ nav ul li {
   .contact {
     padding: 40px 0 0 25%;
   }
+}
+
+@media only screen and (min-width: 600px) {
   .me-text {
     margin: 0 5%;
     text-align: left;
     padding: 0 0;
-    width: 550px;
+    width: 500px;
   }
   .me-image{
     float: right;
@@ -536,7 +557,7 @@ nav ul li {
   }
   .me-image img {
     padding-top: 10%;
-    padding-left: 25%;
+    padding-left: 10%;
   }
 }
 
@@ -544,7 +565,6 @@ nav ul li {
     .top-text {
       width: 475px;
     }
-
 }
 
 @media only screen and (min-width: 780px) {
@@ -559,6 +579,13 @@ nav ul li {
   }
   .row-2 {
     padding-bottom: 0;
+  }
+  .me-text{
+    width: 550px;
+  }
+  .me-image img {
+    padding-top: 10%;
+    padding-left: 25%;
   }
 }
 @media only screen and (min-width: 923px) {
