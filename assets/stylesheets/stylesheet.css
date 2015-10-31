@@ -142,6 +142,46 @@ nav ul li {
   border-bottom: 1px solid #d98053;
   padding-bottom: 1%;
 }
+
+.controls{
+  padding: 2%;
+  color: #eee;
+}
+
+label{
+  font-weight: 300;
+  margin: 0 .4em 0 0;
+}
+
+button{
+  display: inline-block;
+  padding: .4em .8em;
+  background: #232829;
+  border: 0;
+  color: #ddd;
+  font-size: 16px;
+  font-weight: 300;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button.active{
+  background: #d98053;
+}
+
+button:focus{
+  outline: 0 none;
+}
+
+button + label{
+  margin-left: 1em;
+}
+
+
+
+.gallery .mix{
+	display: none;
+}
 .galleryItem {
   padding: 5px;
   border: 1px solid #79c0a9;
@@ -168,7 +208,8 @@ nav ul li {
   color: white;
 }
 .galleryItem img {
-  /*max-width: 100%;*/
+  max-width: 100%;
+  min-width: 200px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
@@ -534,7 +575,7 @@ nav ul li {
     white-space: nowrap;
   }
   .container {
-    width: 90%;
+    width: 100%;
   }
   .clear-inline {
     width: 500px;
