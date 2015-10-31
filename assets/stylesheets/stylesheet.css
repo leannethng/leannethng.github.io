@@ -40,7 +40,7 @@ nav {
   width: 53px;
   top: -7px;
   position: relative;
-
+  /*display: inline-block; */
   float: left;
 }
 #logo:hover {
@@ -49,7 +49,6 @@ nav {
 #logo:focus {
   background-position: 0 -40px;
 }
-
 nav ul li a {
   color: #79c0a9;
   font-size: 16px;
@@ -85,8 +84,8 @@ nav ul li {
 
 #top-section {
   position: relative;
-  background: url("https://s3.amazonaws.com/portfolioleannethng/Images/treehouse-bg_1440_02.jpg") #a4d6c5 no-repeat center;
-  height: 400px;
+  background: url("https://s3.amazonaws.com/portfolioleannethng/Images/treehouse-bg_1440_01_light.jpg") #a4d6c5 no-repeat center;
+  height: 600px;
   width: 100%;
   margin: 0 auto;
   -webkit-background-size: cover;
@@ -101,7 +100,7 @@ nav ul li {
 
 /* need to fix this */
 
-/*.arrow {
+.arrow {
   display: block;
   background: url("https://s3.amazonaws.com/portfolioleannethng/Images/arrow_100px.png") center no-repeat;
   text-align: center;
@@ -111,7 +110,7 @@ nav ul li {
   bottom: 10px;
   left: 50%;
   margin-left: -50px;
-}*/
+}
 
 /* Portfolio
 ================================ */
