@@ -116,7 +116,7 @@ nav ul li {
 ================================ */
 
 #portfolio {
-  padding-bottom: 15%;
+  padding-bottom: 10%;
 }
 .section-separator1 {
   height: 10px;
@@ -131,7 +131,7 @@ nav ul li {
   margin: 0 auto;
   overflow: hidden;
   text-align: center;
-  /*padding-top: 70px;*/
+  padding-top: 70px;
 }
 .container .headings {
   font-size: 2em;
