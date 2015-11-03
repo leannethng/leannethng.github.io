@@ -94,8 +94,29 @@ nav ul li {
   background-size: cover;
 }
 .top-text {
-  display: none;
+  display: block;
+  width: 80%;
+  padding-top: 150px;
+  margin: 0 auto;
+  color: #232629;
+}
+#fittext1 {
+  font-size: 2.8em;
+  font-weight: 400;
+  margin-bottom: -20px;
+}
+#fittext2 {
+  font-size: 1.55em;
+  font-weight: 300;
+  margin-top: 0;
+  white-space: nowrap;
+}
 
+.line-separator {
+  background: #d98053;
+  border-bottom: 2px solid #d98053;
+  margin-right: 2%;
+  margin-top: 20px;
 }
 
 /* need to fix this */
@@ -136,7 +157,7 @@ nav ul li {
 .container .headings {
   font-size: 2.5em;
   color: #79c0a9;
-  font-weight: 200;
+  font-weight: 300;
   margin: 0 auto 23px;
   width: 300px;
   border-bottom: 1px solid #d98053;
@@ -268,7 +289,7 @@ button + label{
 #about .headings {
   font-size: 2.5em;
   color: #1F2933;
-  font-weight: 200;
+  font-weight: 300;
   margin-top: 70px;
   margin-bottom: 23px;
   margin-left: auto;
@@ -505,7 +526,7 @@ button + label{
   .contact {
     padding: 40px 0 0 15%;
   }
-  .top-text {
+  /*.top-text {
     display: block;
     width: 80%;
     padding-top: 150px;
@@ -528,7 +549,7 @@ button + label{
     border-bottom: 2px solid #d98053;
     margin-right: 2%;
     margin-top: 20px;
-  }
+  }*/
 }
 @media only screen and (min-width: 426px) {
 
@@ -577,12 +598,21 @@ button + label{
   .container {
     width: 100%;
   }
+
+  .container .headings {
+    font-weight: 200;
+  }
   .clear-inline {
     width: 500px;
+  }
+
+  #about .headings {
+    font-weight: 200;
   }
   .contact {
     padding: 40px 0 0 25%;
   }
+
 }
 
 @media only screen and (min-width: 600px) {

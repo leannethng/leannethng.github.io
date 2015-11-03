@@ -12,7 +12,7 @@
   font-size: 2.5em;
   padding-top: 100px;
   margin-top: 0;
-  font-weight: 200;
+  font-weight: 300;
 }
 .project_info {
   width: 275px;
@@ -119,6 +119,12 @@
     width: 400px;
   }
 }
+@media only screen and (min-width: 550px) {
+  #project_info .headings {
+    font-weight: 200;
+  }
+}
+
 @media only screen and (min-width: 650px) {
   .project_info {
     width: 450px;
