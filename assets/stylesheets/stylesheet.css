@@ -95,7 +95,7 @@ nav ul li {
 }
 .top-text {
   display: block;
-  width: 80%;
+  width: 90%;
   padding-top: 150px;
   margin: 0 auto;
   color: #232629;
@@ -157,7 +157,7 @@ nav ul li {
 .container .headings {
   font-size: 2.5em;
   color: #79c0a9;
-  font-weight: 300;
+  font-weight: 200;
   margin: 0 auto 23px;
   width: 300px;
   border-bottom: 1px solid #d98053;
@@ -289,7 +289,7 @@ button + label{
 #about .headings {
   font-size: 2.5em;
   color: #1F2933;
-  font-weight: 300;
+  font-weight: 200;
   margin-top: 70px;
   margin-bottom: 23px;
   margin-left: auto;
@@ -521,35 +521,28 @@ button + label{
 
 /* Devices
 ================================ */
+@media
+(-webkit-min-device-pixel-ratio: 2),
+(min-resolution: 192dpi) {
+  .container .headings {
+    font-weight: 300;
+  }
+  #about .headings {
+    font-weight: 300;
+  }
+}
+
 
 @media only screen and (min-width: 378px) {
   .contact {
     padding: 40px 0 0 15%;
   }
-  /*.top-text {
-    display: block;
+  .top-text {
+  
     width: 80%;
-    padding-top: 150px;
-    margin: 0 auto;
-    color: #232629;
+
   }
-  #fittext1 {
-    font-size: 2.8em;
-    font-weight: 400;
-    margin-bottom: -20px;
-  }
-  #fittext2 {
-    font-size: 1.55em;
-    font-weight: 300;
-    margin-top: 0;
-    white-space: nowrap;
-  }
-  .line-separator {
-    background: #d98053;
-    border-bottom: 2px solid #d98053;
-    margin-right: 2%;
-    margin-top: 20px;
-  }*/
+
 }
 @media only screen and (min-width: 426px) {
 
