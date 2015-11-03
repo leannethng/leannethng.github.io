@@ -51,7 +51,7 @@ nav {
 }
 nav ul li a {
   color: #79c0a9;
-  font-size: 16px;
+  font-size: 1.1em;
   font-weight: 300;
   padding-left: 15px;
   padding-right: 15px;
@@ -134,9 +134,9 @@ nav ul li {
   padding-top: 70px;
 }
 .container .headings {
-  font-size: 2em;
+  font-size: 2.5em;
   color: #79c0a9;
-  font-weight: 300;
+  font-weight: 200;
   margin: 0 auto 23px;
   width: 300px;
   border-bottom: 1px solid #d98053;
@@ -266,9 +266,9 @@ button + label{
   box-shadow: 0 0.5px 2px 0 #000000;
 }
 #about .headings {
-  font-size: 2em;
+  font-size: 2.5em;
   color: #1F2933;
-  font-weight: 300;
+  font-weight: 200;
   margin-top: 70px;
   margin-bottom: 23px;
   margin-left: auto;
