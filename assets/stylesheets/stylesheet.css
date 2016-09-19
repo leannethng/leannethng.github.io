@@ -538,7 +538,7 @@ button + label{
     padding: 40px 0 0 15%;
   }
   .top-text {
-  
+
     width: 80%;
 
   }
@@ -620,7 +620,7 @@ button + label{
     width: 124px;
   }
   .me-image img {
-    padding-top: 10%;
+    padding-top: 30%;
     padding-left: 10%;
   }
 }
@@ -628,6 +628,10 @@ button + label{
 @media only screen and (min-width: 734px) {
     .top-text {
       width: 475px;
+    }
+    .me-image img {
+      padding-top: 30%;
+      padding-left: 25%;
     }
 }
 
@@ -648,7 +652,7 @@ button + label{
     width: 550px;
   }
   .me-image img {
-    padding-top: 10%;
+    padding-top: 30%;
     padding-left: 25%;
   }
 }
