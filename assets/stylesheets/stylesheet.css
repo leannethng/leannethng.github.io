@@ -38,9 +38,9 @@ nav {
   background: url("https://s3.amazonaws.com/portfolioleannethng/Images/LT_logo_swap.png");
   height: 40px;
   width: 53px;
+  margin: 0 15px;
   top: -7px;
   position: relative;
-  /*display: inline-block; */
   float: left;
 }
 #logo:hover {
@@ -174,20 +174,21 @@ nav ul li {
   margin: 0 .4em 0 0;
 }*/
 
-button{
+button {
   display: inline-block;
   padding: .6em 1em;
+  margin: 0 10px;
   background: #304754;
   border: 0;
   color: #ddd;
   font-size: 16px;
   font-weight: 300;
-  border-radius: 4px;
   cursor: pointer;
+
 }
 
 button.active{
-  background: #232829;
+  border-bottom: #d98053 1px solid;
 }
 
 button:focus{
@@ -197,8 +198,6 @@ button:focus{
 button + label{
   margin-left: 1em;
 }
-
-
 
 .gallery .mix{
 	display: none;
@@ -211,14 +210,13 @@ button + label{
   display: -moz-inline-stack;
   display: inline-block;
   vertical-align: top;
-  zoom: 1;
-  *display: inline;
   margin: 0 1% 20px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
 }
-.galleryItem h3 a {
+
+.galleryItem a {
   text-decoration: none;
   font-weight: 300;
   color: white;
@@ -521,7 +519,7 @@ button + label{
 
 /* Devices
 ================================ */
-@media
+/*@media
 (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 192dpi) {
   .container .headings {
@@ -530,7 +528,7 @@ button + label{
   #about .headings {
     font-weight: 300;
   }
-}
+}*/
 
 
 @media only screen and (min-width: 378px) {

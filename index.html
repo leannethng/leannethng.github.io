@@ -4,7 +4,7 @@
 <head>
   <link href='https://fonts.googleapis.com/css?family=Lato:100,300,400' rel='stylesheet' type='text/css'>
   <link rel="icon" type="image/png" href="https://s3.amazonaws.com/portfolioleannethng/Images/LT_logo_favicon.png">
-  <meta charset=”utf-8”>
+  <meta charset=utf-8>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Leanne Thng Portfolio</title>
   <link rel="stylesheet" type="text/css" href="assets/stylesheets/stylesheet.css">
@@ -15,8 +15,8 @@
 
   <!-- Navbar -->
   <nav id="navbar">
+    <a id="logo" class="scroll" href="#top-section"></a>
     <ul>
-      <a id="logo" class="scroll" href="#top-section" alt="Home"></a>
       <li><a class="scroll" href="#about">About</a></li>
       <li><a class="scroll" href="#portfolio">Portfolio</a></li>
     </ul>
@@ -51,9 +51,9 @@
         <div class="controls">
           <!-- <label>Filter:</label> -->
           <button class="filter" data-filter="all">Show All</button>
-          <button class="filter" data-filter=".category-web">Web</button>
           <button class="filter" data-filter=".category-anim">Animation</button>
           <button class="filter" data-filter=".category-3D">3D Modeling</button>
+            <button class="filter" data-filter=".category-web">Web</button>
           <!-- <div class="sort" data-sort="default">Default</div> -->
         </div>
         <!-- Gallery items -->
@@ -159,7 +159,7 @@
       <!-- About me text -->
       <div class="me-text">
         <div class="me-image">
-          <img src="https://s3.amazonaws.com/portfolioleannethng/Images/me_icon_03.png">
+          <img src="https://s3.amazonaws.com/portfolioleannethng/Images/me_icon_03.png" alt ="">
         </div>
         <p>
           <span class="big-letter">O</span>riginally from a small sleepy town in Scotland, I now live in Irvine, California.</p>
@@ -180,7 +180,7 @@
 
       <!-- section 2 -->
       <div class="tools-image">
-        <img src="https://s3.amazonaws.com/portfolioleannethng/Images/web_icon.png">
+        <img src="https://s3.amazonaws.com/portfolioleannethng/Images/web_icon.png" alt ="">
       </div>
 
       <div class="lists">
@@ -202,7 +202,7 @@
 
       <!-- section 3 -->
       <div class="tools-image">
-        <img src="https://s3.amazonaws.com/portfolioleannethng/Images/2D_icon.png">
+        <img src="https://s3.amazonaws.com/portfolioleannethng/Images/2D_icon.png" alt ="">
       </div>
 
       <div class="lists">
@@ -226,7 +226,7 @@
 
       <!-- section 1 -->
       <div class="tools-image">
-        <img src="https://s3.amazonaws.com/portfolioleannethng/Images/3D_icon.png">
+        <img src="https://s3.amazonaws.com/portfolioleannethng/Images/3D_icon.png" alt ="">
       </div>
 
       <div class="lists">
@@ -288,20 +288,16 @@
 
   <!-- Javascript -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Analytics -->
   <script>
-    (function(i, s, o, g, r, a, m) {
-      i['GoogleAnalyticsObject'] = r;
-      i[r] = i[r] || function() {
-        (i[r].q = i[r].q || []).push(arguments)
-      }, i[r].l = 1 * new Date();
-      a = s.createElement(o),
-        m = s.getElementsByTagName(o)[0];
-      a.async = 1;
-      a.src = g;
-      m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
-    ga('create', 'UA-25816599-1', 'leannethng.com');
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-91354073-1', 'auto');
     ga('send', 'pageview');
+
   </script>
   <!-- mix it up -->
   <script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
