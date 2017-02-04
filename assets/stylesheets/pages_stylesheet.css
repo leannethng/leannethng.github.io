@@ -123,13 +123,11 @@
 }
 
 
-@media
-(-webkit-min-device-pixel-ratio: 2),
-(min-resolution: 192dpi) {
+/*@media (-webkit-min-device-pixel-ratio: 2),(min-resolution: 192dpi) {
   #project_info .headings {
     font-weight: 300;
   }
-}
+}*/
 
 @media only screen and (min-width: 650px) {
   .project_info {

@@ -198,8 +198,6 @@ button + label{
   margin-left: 1em;
 }
 
-
-
 .gallery .mix{
 	display: none;
 }
@@ -211,14 +209,15 @@ button + label{
   display: -moz-inline-stack;
   display: inline-block;
   vertical-align: top;
-  zoom: 1;
-  *display: inline;
+  /*zoom: 1;*/
+  display: inline;
   margin: 0 1% 20px;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
 }
-.galleryItem h3 a {
+
+.galleryItem a {
   text-decoration: none;
   font-weight: 300;
   color: white;
@@ -521,7 +520,7 @@ button + label{
 
 /* Devices
 ================================ */
-@media
+/*@media
 (-webkit-min-device-pixel-ratio: 2),
 (min-resolution: 192dpi) {
   .container .headings {
@@ -530,7 +529,7 @@ button + label{
   #about .headings {
     font-weight: 300;
   }
-}
+}*/
 
 
 @media only screen and (min-width: 378px) {
