@@ -1,347 +1,455 @@
 <!DOCTYPE html>
 
 <html lang="en">
-<head>
-  <link href='https://fonts.googleapis.com/css?family=Lato:100,300,400' rel='stylesheet' type='text/css'>
-  <link rel="icon" type="image/png" href="https://s3.amazonaws.com/portfolioleannethng/Images/LT_logo_favicon.png">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Leanne Thng Portfolio</title>
-  <link rel="stylesheet" type="text/css" href="assets/stylesheets/stylesheet.css">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta property="og:image" content="https://s3.amazonaws.com/portfolioleannethng/Images/portfolioimages/Treehouse_1_800.jpg">
-</head>
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:100,300,400"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://s3.amazonaws.com/portfolioleannethng/Images/LT_logo_favicon.png"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leanne Thng Portfolio</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/stylesheets/stylesheet.css"
+    />
+    <meta https-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta
+      property="og:image"
+      content="https://s3.amazonaws.com/portfolioleannethng/Images/portfolioimages/Treehouse_1_800.jpg"
+    />
+  </head>
 
-<body>
+  <body>
+    <!-- Navbar -->
+    <nav id="navbar">
+      <a id="logo" class="scroll" href="#top-section"></a>
+      <ul>
+        <li><a class="scroll" href="#about">About</a></li>
+        <li><a class="scroll" href="#portfolio">Portfolio</a></li>
+      </ul>
+    </nav>
 
-  <!-- Navbar -->
-  <nav id="navbar">
-    <a id="logo" class="scroll" href="#top-section"></a>
-    <ul>
-      <li><a class="scroll" href="#about">About</a></li>
-      <li><a class="scroll" href="#portfolio">Portfolio</a></li>
-    </ul>
-  </nav>
-
-  <!-- overall content wrapper -->
-  <div id="wrapper">
-
-
-    <!-- Top section -->
-    <div id="top-section">
-      <div class="top-text">
-        <h1 id="fittext1">Hello, I am Leanne</h1>
-        <div class="line-separator"></div>
-        <h2 id="fittext2">I Like to Make Things!</h2>
+    <!-- overall content wrapper -->
+    <div id="wrapper">
+      <!-- Top section -->
+      <div id="top-section">
+        <div class="top-text">
+          <h1 id="fittext1">Hello, I am Leanne</h1>
+          <div class="line-separator"></div>
+          <h2 id="fittext2">I Like to Make Things!</h2>
+        </div>
+        <div class="arrow"></div>
       </div>
-      <div class="arrow">
+
+      <!-- Portfolio section -->
+      <div id="portfolio">
+        <div class="section-separator1"></div>
+        <div class="container">
+          <!-- heading -->
+          <h1 class="headings">Portfolio</h1>
+
+          <!-- Controls -->
+          <div class="controls">
+            <!-- <label>Filter:</label> -->
+            <button class="filter" data-filter="all">Show All</button>
+            <button class="filter" data-filter=".category-anim">
+              Animation
+            </button>
+            <button class="filter" data-filter=".category-3D">
+              3D Modeling
+            </button>
+            <button class="filter" data-filter=".category-web">Web</button>
+            <!-- <div class="sort" data-sort="default">Default</div> -->
+          </div>
+          <!-- Gallery items -->
+          <div class="gallery">
+            <div class="galleryItem mix category-web" data-myorder="1">
+              <div class="imgcolor">
+                <a href="pages/hearthstone_stats.html">
+                  <img
+                    src="https://s3.amazonaws.com/portfolioleannethng/Images/portfolioimages/hearth_stats_thumb.png"
+                    alt="Hearthstone Stats"
+                    class="hover"
+                  />
+                </a>
+                <h3 class="text">
+                  <a href="pages/hearthstone_stats.html">Hearthstone Stats</a>
+                </h3>
+                <p class="text">
+                  <a href="pages/hearthstone_stats.html">Win/Loss tracker</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="galleryItem mix category-anim" data-myorder="2">
+              <div class="imgcolor">
+                <a href="pages/animation_reel.html">
+                  <img
+                    src="https://s3.amazonaws.com/portfolioleannethng/Images/portfolioimages/demo_reel_thumb.jpg"
+                    alt="Game animation demo reel"
+                    class="hover"
+                  />
+                </a>
+                <h3 class="text">
+                  <a href="pages/animation_reel.html"
+                    >Game animation demo reel</a
+                  >
+                </h3>
+                <p class="text">
+                  <a href="pages/animation_reel.html">CG animation</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="galleryItem mix category-anim" data-myorder="3">
+              <div class="imgcolor">
+                <a href="pages/enid.html">
+                  <img
+                    src="https://s3.amazonaws.com/portfolioleannethng/Images/portfolioimages/Enid_shot2_thumb.jpg"
+                    alt="Enid"
+                    class="hover"
+                  />
+                </a>
+                <h3 class="text"><a href="pages/enid.html">Enid</a></h3>
+                <p class="text"><a href="pages/enid.html">CG short film</a></p>
+              </div>
+            </div>
+
+            <div class="galleryItem mix category-anim" data-myorder="4">
+              <div class="imgcolor">
+                <a href="pages/redgate.html">
+                  <img
+                    src="https://s3.amazonaws.com/portfolioleannethng/Images/portfolioimages/redgate_thumb.jpg"
+                    alt="Redgate Software animated logos"
+                    class="hover"
+                  />
+                </a>
+                <h3 class="text">
+                  <a href="pages/redgate.html"
+                    >Redgate Software animated logos</a
+                  >
+                </h3>
+                <p class="text">
+                  <a href="pages/redgate.html">Motion Graphics</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="galleryItem mix category-3D" data-myorder="8">
+              <div class="imgcolor">
+                <a href="pages/treehouse.html">
+                  <img
+                    src="https://s3.amazonaws.com/portfolioleannethng/Images/portfolioimages/Treehouse01thumb.jpg"
+                    alt="Boy in treehouse concepts"
+                    class="hover"
+                  />
+                </a>
+
+                <h3 class="text">
+                  <a href="pages/treehouse.html">Boy in treehouse concepts</a>
+                </h3>
+                <p class="text">
+                  <a href="pages/treehouse.html">Short story idea</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="galleryItem mix category-3D" data-myorder="5">
+              <div class="imgcolor">
+                <a href="pages/my_world.html">
+                  <img
+                    src="https://s3.amazonaws.com/portfolioleannethng/Images/portfolioimages/Concept_buildings_01_thumb.jpg"
+                    alt="Project MyWorld"
+                    class="hover"
+                  />
+                </a>
+
+                <h3 class="text">
+                  <a href="pages/my_world.html">Project MyWorld</a>
+                </h3>
+                <p class="text">
+                  <a href="pages/my_world.html"
+                    >CG game art for Realtime Worlds</a
+                  >
+                </p>
+              </div>
+            </div>
+
+            <div class="galleryItem mix category-3D" data-myorder="6">
+              <div class="imgcolor">
+                <a href="pages/villa.html">
+                  <img
+                    src="https://s3.amazonaws.com/portfolioleannethng/Images/portfolioimages/Villa01thumb.jpg"
+                    alt="The villa"
+                    class="hover"
+                  />
+                </a>
+
+                <h3 class="text"><a href="pages/villa.html">The villa</a></h3>
+                <p class="text">
+                  <a href="pages/villa.html">CG modelling project</a>
+                </p>
+              </div>
+            </div>
+
+            <div class="galleryItem mix category-3D" data-myorder="7">
+              <div class="imgcolor">
+                <a href="pages/interior_architecture.html">
+                  <img
+                    src="https://s3.amazonaws.com/portfolioleannethng/Images/portfolioimages/UniWorkFinalProject01thumb.jpg"
+                    alt="Interior Architecture"
+                    class="hover"
+                  />
+                </a>
+
+                <h3 class="text">
+                  <a href="pages/interior_architecture.html"
+                    >Interior Architecture</a
+                  >
+                </h3>
+                <p class="text">
+                  <a href="pages/interior_architecture.html"
+                    >University projects</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
 
-    <!-- Portfolio section -->
-    <div id="portfolio">
-      <div class="section-separator1"></div>
-      <div class="container">
-
-
+      <!-- About section -->
+      <div id="about">
+        <div class="section-separator2"></div>
 
         <!-- heading -->
-        <h1 class="headings"> Portfolio </h1>
+        <h1 class="headings">About me</h1>
+        <h2>I am passionate about crafting meaningful experiences</h2>
 
-        <!-- Controls -->
-        <div class="controls">
-          <!-- <label>Filter:</label> -->
-          <button class="filter" data-filter="all">Show All</button>
-          <button class="filter" data-filter=".category-anim">Animation</button>
-          <button class="filter" data-filter=".category-3D">3D Modeling</button>
-            <button class="filter" data-filter=".category-web">Web</button>
-          <!-- <div class="sort" data-sort="default">Default</div> -->
+        <!-- About me text -->
+        <div class="me-text">
+          <div class="me-image">
+            <img
+              src="https://s3.amazonaws.com/portfolioleannethng/Images/me_icon_03.png"
+              alt=""
+            />
+          </div>
+          <p>
+            <span class="big-letter">O</span>riginally from a small sleepy town
+            in Scotland, I now live in Portland, Oregon.
+          </p>
+
+          <p>
+            Through a love of the design process and implementing ideas, I have
+            worked for over 10 years crafting experiences in many disciplines.
+          </p>
+
+          <!-- <p>I now specialize in creating beautiful and engaging experiences online.</p> -->
         </div>
-        <!-- Gallery items -->
-        <div class="gallery">
 
-          <div class="galleryItem mix category-web" data-myorder="1">
-            <div class="imgcolor">
-              <a href="pages/hearthstone_stats.html">
-                <img src="https://s3.amazonaws.com/portfolioleannethng/Images/portfolioimages/hearth_stats_thumb.png" alt="Hearthstone Stats" class="hover">
-              </a>
-              <h3 class="text"><a href="pages/hearthstone_stats.html">Hearthstone Stats</a></h3>
-              <p class="text"><a href="pages/hearthstone_stats.html">Win/Loss tracker</a></p>
-            </div>
-          </div>
+        <!-- Skills and tools -->
+        <h1 class="headings-small">Skills and Tools</h1>
 
-          <div class="galleryItem mix category-anim" data-myorder="2">
-            <div class="imgcolor">
-              <a href="pages/animation_reel.html">
-                <img src="http://s3.amazonaws.com/portfolioleannethng/Images/portfolioimages/demo_reel_thumb.jpg" alt="Game animation demo reel" class="hover">
-              </a>
-              <h3 class="text"><a href="pages/animation_reel.html">Game animation demo reel</a></h3>
-              <p class="text"><a href="pages/animation_reel.html">CG animation</a></p>
-            </div>
-          </div>
-
-          <div class="galleryItem mix category-anim" data-myorder="3">
-            <div class="imgcolor">
-              <a href="pages/enid.html">
-                <img src="http://s3.amazonaws.com/portfolioleannethng/Images/portfolioimages/Enid_shot2_thumb.jpg" alt="Enid" class="hover">
-              </a>
-              <h3 class="text"><a href="pages/enid.html">Enid</a></h3>
-              <p class="text"><a href="pages/enid.html">CG short film</a></p>
-            </div>
-          </div>
-
-          <div class="galleryItem mix category-anim" data-myorder="4">
-            <div class="imgcolor">
-              <a href="pages/redgate.html">
-                <img src="http://s3.amazonaws.com/portfolioleannethng/Images/portfolioimages/redgate_thumb.jpg" alt="Redgate Software animated logos" class="hover">
-              </a>
-              <h3 class="text"><a href="pages/redgate.html">Redgate Software animated logos</a></h3>
-              <p class="text"><a href="pages/redgate.html">Motion Graphics</a></p>
-            </div>
-          </div>
-
-          <div class="galleryItem mix category-3D" data-myorder="8">
-            <div class="imgcolor">
-              <a href="pages/treehouse.html">
-                <img src="http://s3.amazonaws.com/portfolioleannethng/Images/portfolioimages/Treehouse01thumb.jpg" alt="Boy in treehouse concepts" class="hover">
-              </a>
-
-              <h3 class="text"><a href="pages/treehouse.html">Boy in treehouse concepts</a></h3>
-              <p class="text"><a href="pages/treehouse.html">Short story idea</a></p>
-            </div>
-          </div>
-
-          <div class="galleryItem mix category-3D" data-myorder="5">
-            <div class="imgcolor">
-              <a href="pages/my_world.html">
-                <img src="http://s3.amazonaws.com/portfolioleannethng/Images/portfolioimages/Concept_buildings_01_thumb.jpg" alt="Project MyWorld" class="hover">
-              </a>
-
-              <h3 class="text"><a href="pages/my_world.html">Project MyWorld</a></h3>
-              <p class="text"><a href="pages/my_world.html">CG game art for Realtime Worlds</a></p>
-            </div>
-          </div>
-
-          <div class="galleryItem mix category-3D" data-myorder="6">
-            <div class="imgcolor">
-              <a href="pages/villa.html">
-                <img src="http://s3.amazonaws.com/portfolioleannethng/Images/portfolioimages/Villa01thumb.jpg" alt="The villa" class="hover">
-              </a>
-
-              <h3 class="text"><a href="pages/villa.html">The villa</a></h3>
-              <p class="text"><a href="pages/villa.html">CG modelling project</a></p>
-            </div>
-          </div>
-
-          <div class="galleryItem mix category-3D" data-myorder="7">
-            <div class="imgcolor">
-              <a href="pages/interior_architecture.html">
-                <img src="http://s3.amazonaws.com/portfolioleannethng/Images/portfolioimages/UniWorkFinalProject01thumb.jpg" alt="Interior Architecture" class="hover">
-              </a>
-
-              <h3 class="text"><a href="pages/interior_architecture.html">Interior Architecture</a></h3>
-              <p class="text"><a href="pages/interior_architecture.html">University projects</a></p>
-            </div>
-          </div>
+        <!-- section 2 -->
+        <div class="tools-image">
+          <img
+            src="https://s3.amazonaws.com/portfolioleannethng/Images/web_icon.png"
+            alt=""
+          />
         </div>
-      </div>
-    </div>
 
+        <div class="lists">
+          <ul class="right-aligned">
+            <li>Web Design</li>
+            <li>Front End</li>
+            <li class="blank">...</li>
+            <li class="blank">...</li>
+          </ul>
 
-    <!-- About section -->
-    <div id="about">
-      <div class="section-separator2"></div>
-
-
-      <!-- heading -->
-      <h1 class="headings"> About me </h1>
-      <h2> I am passionate about crafting meaningful experiences </h2>
-
-      <!-- About me text -->
-      <div class="me-text">
-        <div class="me-image">
-          <img src="https://s3.amazonaws.com/portfolioleannethng/Images/me_icon_03.png" alt ="">
-        </div>
-        <p>
-          <span class="big-letter">O</span>riginally from a small sleepy town in Scotland, I now live in Portland, Oregon.</p>
-
-
-
-        <p> Through a love of the design process and implementing ideas, I have worked for over 10 years crafting experiences in many disciplines. </p>
-
-        <!-- <p>I now specialize in creating beautiful and engaging experiences online.</p> -->
-
-      </div>
-
-
-
-      <!-- Skills and tools -->
-      <h1 class="headings-small"> Skills and Tools</h1>
-
-
-      <!-- section 2 -->
-      <div class="tools-image">
-        <img src="https://s3.amazonaws.com/portfolioleannethng/Images/web_icon.png" alt ="">
-      </div>
-
-      <div class="lists">
-        <ul class="right-aligned">
-          <li>Web Design</li>
-          <li>Front End</li>
-          <li class="blank">...</li>
-          <li class="blank">...</li>
-        </ul>
-
-        <ul>
-          <li>HTML</li>
-          <li>CSS | Sass</li>
-          <li>JavaScript</li>
-          <li>jQuery</li>
-        </ul>
-      </div>
-      <div class="clear-inline"></div>
-
-      <!-- section 3 -->
-      <div class="tools-image">
-        <img src="https://s3.amazonaws.com/portfolioleannethng/Images/2D_icon.png" alt ="">
-      </div>
-
-      <div class="lists">
-        <ul class="right-aligned">
-          <li>Motion Graphics</li>
-          <li>Graphic Design</li>
-          <li class="blank">...</li>
-          <li class="blank">...</li>
-
-        </ul>
-
-        <ul>
-          <li>Photoshop</li>
-          <li>Sketch</li>
-          <li>Illustrator</li>
-          <li>After Effects</li>
-          <!-- <li>Premiere</li> -->
-        </ul>
-      </div>
-      <div class="clear-inline"></div>
-
-      <!-- section 1 -->
-      <div class="tools-image">
-        <img src="https://s3.amazonaws.com/portfolioleannethng/Images/3D_icon.png" alt ="">
-      </div>
-
-      <div class="lists">
-        <ul class="right-aligned">
-          <li>Animation</li>
-          <li>Modelling</li>
-          <li class="blank">...</li>
-        </ul>
-
-        <ul>
-          <li>Maya</li>
-          <li>3D Studio Max</li>
-          <li>Softimage</li>
-          <li class="blank">...</li>
-        </ul>
-      </div>
-      <div class="clear-inline"></div>
-
-
-
-
-
-    </div>
-
-
-
-    <!-- Footer -->
-    <div id="footer">
-
-      <div class="contact">
-
-        <div class="row-1">
-          <div class="get-in-touch">
-            <p> Get in touch </p>
-          </div>
-          <ul class="in-touch">
-            <li class="tweets"><a href="http://twitter.com/leannethng">@leannethng</a></li>
+          <ul>
+            <li>HTML</li>
+            <li>CSS | Sass</li>
+            <li>JavaScript</li>
+            <li>jQuery</li>
           </ul>
         </div>
+        <div class="clear-inline"></div>
 
-        <div class="row-2">
-          <div class="get-in-touch">
-            <p> Find me on </p>
-          </div>
-          <ul class="in-touch">
-            <li class="github"><a href="https://github.com/leannethng">Github</a></li>
-            <li class="blog"><a href="http://leannethng.wordpress.com/">Blog</a></li>
-            <li class="professional"><a href="http://linkedin.com/in/leannethng/">Linkedin</a></li>
+        <!-- section 3 -->
+        <div class="tools-image">
+          <img
+            src="https://s3.amazonaws.com/portfolioleannethng/Images/2D_icon.png"
+            alt=""
+          />
+        </div>
+
+        <div class="lists">
+          <ul class="right-aligned">
+            <li>Motion Graphics</li>
+            <li>Graphic Design</li>
+            <li class="blank">...</li>
+            <li class="blank">...</li>
+          </ul>
+
+          <ul>
+            <li>Photoshop</li>
+            <li>Sketch</li>
+            <li>Illustrator</li>
+            <li>After Effects</li>
+            <!-- <li>Premiere</li> -->
           </ul>
         </div>
+        <div class="clear-inline"></div>
+
+        <!-- section 1 -->
+        <div class="tools-image">
+          <img
+            src="https://s3.amazonaws.com/portfolioleannethng/Images/3D_icon.png"
+            alt=""
+          />
+        </div>
+
+        <div class="lists">
+          <ul class="right-aligned">
+            <li>Animation</li>
+            <li>Modelling</li>
+            <li class="blank">...</li>
+          </ul>
+
+          <ul>
+            <li>Maya</li>
+            <li>3D Studio Max</li>
+            <li>Softimage</li>
+            <li class="blank">...</li>
+          </ul>
+        </div>
+        <div class="clear-inline"></div>
       </div>
-      <div class="row-3">
-        <p> Designed and coded by Leanne Thng </p>
+
+      <!-- Footer -->
+      <div id="footer">
+        <div class="contact">
+          <div class="row-1">
+            <div class="get-in-touch">
+              <p>Get in touch</p>
+            </div>
+            <ul class="in-touch">
+              <li class="tweets">
+                <a href="https://twitter.com/leannethng">@leannethng</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="row-2">
+            <div class="get-in-touch">
+              <p>Find me on</p>
+            </div>
+            <ul class="in-touch">
+              <li class="github">
+                <a href="https://github.com/leannethng">Github</a>
+              </li>
+              <li class="blog">
+                <a href="https://leannethng.wordpress.com/">Blog</a>
+              </li>
+              <li class="professional">
+                <a href="https://linkedin.com/in/leannethng/">Linkedin</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row-3">
+          <p>Designed and coded by Leanne Thng</p>
+        </div>
       </div>
     </div>
-  </div>
 
+    <!-- Javascript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Analytics -->
+    <script>
+      (function(i, s, o, g, r, a, m) {
+        i["GoogleAnalyticsObject"] = r;
+        (i[r] =
+          i[r] ||
+          function() {
+            (i[r].q = i[r].q || []).push(arguments);
+          }),
+          (i[r].l = 1 * new Date());
+        (a = s.createElement(o)), (m = s.getElementsByTagName(o)[0]);
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m);
+      })(
+        window,
+        document,
+        "script",
+        "https://www.google-analytics.com/analytics.js",
+        "ga"
+      );
 
-  <!-- Javascript -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <!-- Analytics -->
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga("create", "UA-91354073-1", "auto");
+      ga("send", "pageview");
+    </script>
+    <!-- mix it up -->
+    <script src="https://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
+    <script>
+      $(function() {
+        // Instantiate MixItUp:
 
-    ga('create', 'UA-91354073-1', 'auto');
-    ga('send', 'pageview');
+        $(".gallery").mixItUp();
+      });
+    </script>
 
-  </script>
-  <!-- mix it up -->
-  <script src="http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
-  <script>
-    $(function() {
-
-      // Instantiate MixItUp:
-
-      $('.gallery').mixItUp();
-
-    });
-  </script>
-
-  <script>
-    $(".scroll").click(function(t) {
-      t.preventDefault();
-      var h = 0;
-      h = $(this.hash).offset().top > $(document).height() - $(window).height() ? $(document).height() - $(window).height() : $(this.hash).offset().top, $("html,body").animate({
-        scrollTop: h
-      }, 500, "swing")
-    });
-  </script>
-  <script>
-    function resize() {
-      var e = jQuery(window).height() - jQuery("#navbar").height();
-      jQuery("#top-section").height(e + 40)
-    }
-    jQuery(window).resize(function() {
-      resize()
-    }), $(function() {
-      resize()
-    });
-  </script>
-  <script type="text/javascript" src="assets/javascript/jquery.fittext.js"></script>
-  <script type="text/javascript">
-    jQuery('#fittext1').fitText(0.8, {
-      minFontSize: '29px',
-      maxFontSize: '55px'
-    });
-    jQuery('#fittext2').fitText(1.42, {
-      minFontSize: '17px',
-      maxFontSize: '33px'
-    });
-  </script>
-</body>
-
+    <script>
+      $(".scroll").click(function(t) {
+        t.preventDefault();
+        var h = 0;
+        (h =
+          $(this.hash).offset().top > $(document).height() - $(window).height()
+            ? $(document).height() - $(window).height()
+            : $(this.hash).offset().top),
+          $("html,body").animate(
+            {
+              scrollTop: h
+            },
+            500,
+            "swing"
+          );
+      });
+    </script>
+    <script>
+      function resize() {
+        var e = jQuery(window).height() - jQuery("#navbar").height();
+        jQuery("#top-section").height(e + 40);
+      }
+      jQuery(window).resize(function() {
+        resize();
+      }),
+        $(function() {
+          resize();
+        });
+    </script>
+    <script
+      type="text/javascript"
+      src="assets/javascript/jquery.fittext.js"
+    ></script>
+    <script type="text/javascript">
+      jQuery("#fittext1").fitText(0.8, {
+        minFontSize: "29px",
+        maxFontSize: "55px"
+      });
+      jQuery("#fittext2").fitText(1.42, {
+        minFontSize: "17px",
+        maxFontSize: "33px"
+      });
+    </script>
+  </body>
 </html>
